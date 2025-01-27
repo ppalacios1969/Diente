@@ -3,10 +3,14 @@ from PIL import Image
 import requests
 from streamlit_lottie import st_lottie
 
+import os
+path = "C:/Users/ppala/OneDrive/Desktop/Diente/imagenes/CliDent_a.png"
+if os.path.exists(path):
+    print("Archivo encontrado")
+else:
+    print("Archivo no encontrado")
 
-
-
-image=Image.open("imagenes/CliDent a.png")
+image=Image.open("imagenes/CliDent_a.png")
 st.image(image, use_container_width=True)
 
 
