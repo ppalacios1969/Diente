@@ -1,8 +1,3 @@
-import tkinter
-from email.mime import text
-from multiprocessing.spawn import import_main_path
-from os import write
-from tkinter import W
 import streamlit as st
 from PIL import Image
 import requests
