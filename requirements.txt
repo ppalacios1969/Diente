@@ -2,3 +2,4 @@ Pillow==11.1.0
 Requests==2.32.3
 streamlit==1.41.1
 streamlit_lottie==0.0.5
+pip search config
